@@ -12,11 +12,11 @@ Yes. When you dislike a video, we create a randomly generated unique ID for you 
 
 ### Quais as informações que você tem, exatamente?
 
-Somente seu video ID. Não temos seus comentarios, seu nome de usuario, ou qualquer outro Not your comments, not your username, not who you've shared the video with, not any additional metadata. NADA. Apenas seu Video ID.
+Somente seu video ID. Não temos seus comentarios, seu nome de usuario, ou qualquer outros metadados. NADA. Apenas seu Video ID.
 
-### How is my IP stored?
+### Como meu IP é salvo  ?
 
-The backend keeps unhashed IP addresses in volatile memory (RAM) only. These addresses aren't stored on a hard drive, and therefore aren't logged. We hash the IP addresses, and that's stored instead. This is done to prevent database vandalism.
+Os backend mantém os endereços IP unhashed na memoria volátil (RAM) somente. These addresses aren't stored on a hard drive, and therefore aren't logged. We hash the IP addresses, and that's stored instead. This is done to prevent database vandalism.
 
 ### I heard some discussion over OAuth, and access to my YouTube account!
 
@@ -26,6 +26,6 @@ This feature will be optional, and very much opt-in. If you are a YouTube creato
 
 We have implemented measures to prevent bot attacks and are gonna continue to work on improving the effectiveness of the bot prevention system: this will help us keep the dislike count as a good representative of the actual count. Of course it will never be 100% accurate so it's up to you to decide whether you trust the count or not.
 
-### Why don't you share the backend code?
+### Por que você compartilha o código do backend ?
 
 We will share it at some point - but there's really no real reason to share it right now. It gives a false sense of security - because in a zero-trust system, we could just as well disclose one version but deploy another. There are plenty of reasons to keep the code hidden, specifically, how we battle spam. Hiding/Obfuscating the spam handling code is a fairly standard practice.

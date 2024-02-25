@@ -14,9 +14,9 @@ Leia isso em outros idiomas: [русский](READMEru.md), [Español](READMEes.
 
 
 <p align="center">
-    <b>Return YouTube Dislike é uma extensão de codigo aberto que retorna com o contador de Deslike do Youtube.</b></i> Agora está disponivel apenas para os proprietarios dos Canais<i><br>
-       Disponivel para Chrome e Firefox como uma extensão Web.<br>
-       e também disponivel para outros navegadores como um JS UserScript.<br><br>
+    <b>Return YouTube Dislike é uma extensão de código aberto que retorna com o contador de Deslike do Youtube.</b></i> Agora está disponível apenas para os proprietários dos Canais<i><br>
+       Disponível para Chrome e Firefox como uma extensão Web.<br>
+       e também disponível para outros navegadores como um JS UserScript.<br><br>
     <img width="400px" src="https://user-images.githubusercontent.com/18729296/141743755-2be73297-250e-4cd1-ac93-8978c5a39d10.png"/>
 </p>
 
@@ -28,7 +28,7 @@ Additionally, the `dislike` field in the YouTube API was [removed](https://suppo
 
 ## Como isso funciona
 
-With the removal of dislike stats from the YouTube API, our backend switched to using a combination of scraped dislike stats, estimates extrapolated from extension user data.
+Com a remoção do estado de deslike da API do youtube, nosso banco de dados mudou para um uso de combinação dos dados antigo do youtube com nosso enviados.
 
 [FAQ](https://github.com/Anarios/return-youtube-dislike/blob/main/Docs/FAQ.md)
 
@@ -43,7 +43,7 @@ Third-party use of this open API is allowed with the following restrictions:
 - **Attribution**: This project should be clearly attributed with a link to [returnyoutubedislike.com](https://returnyoutubedislike.com/).
 - **Rate Limiting**: There are per client rate limits in place of 100 per minute and 10,000 per day. This will return a _429_ status code indicating that your application should back off.
 
-The API is accessible over the following base URL:  
+A api está acessível no seguinte endereço:  
 https://returnyoutubedislikeapi.com
 
 List of available endpoints is available here:  
@@ -66,8 +66,8 @@ Exemplo para obter os votos pelo Youtube Video ID:
 }
 ```
 
-Nenhum youtube id exstente irá retornar o codigo de status _404_ "Nada encontrado".  
-Wrong formed YouTube ID will return _400_ "Bad Request".
+Nenhum youtube id existente foi retornado o código de status _404_ "Nada encontrado".  
+Nenhum youtube id existente foi retornado o código de status _400_ "falha na requisitação".
 
 <!---
 ## Documentação da API
